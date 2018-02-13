@@ -15,7 +15,9 @@
 
     <body class="page">
         <style type="text/css">
-            .page__wrapper{position: relative;width: 1170px;margin: 0 auto;padding: 0 40px;}
+            .page__wrapper{position: relative;width: 1275px;margin: 0 auto;padding: 0 40px;}
+            #snf-page-layout{position: relative;width: 1275px;margin: 0 auto;padding: 0 40px;}
+            a{text-decoration: none !important; }a:hover{text-decoration: none !important; }
         </style>
 
         <div class="page__wrapper">
@@ -56,21 +58,23 @@
                   min-width: 1250px;
                 }
                .title__l {
-                 font-size: 35px;
+                 font-size: 35px!important;
                  line-height: 45px;
                  text-transform: uppercase;
                  color: #0364B6;
                  font-weight: bold;
                  text-align: center;
-                 margin: 0;
+                 font-style: normal!important;
+                 margin: 0 !important;
                  font-family: 'avg45_c', Arial, sans-serif;
                }
 
                .title__section {
                  text-transform: uppercase;
-                 font-size: 35px;
-                 margin-bottom: 1em;
+                 font-size: 35px!important;
+                 margin-bottom: 1em!important;
                  color: #ADB13D;
+                 font-style: normal!important;
                  font-family: 'avg45_c', Arial, sans-serif;
                  font-weight: normal;
                }
@@ -88,9 +92,10 @@
                   perspective: 1300px;
                   display: inline-block;
                   width: 100%;
-                  max-width: 1090px;
+                  max-width: 1195px;
                   text-align: left;
                   position: relative;
+                  margin-bottom: 40px;
                 }
 
                 .csslider > input {
@@ -353,11 +358,12 @@
                 }
 
                 .slide__title {
-                    font-size: 35px;
+                    font-size: 35px!important;
                     line-height: 45px;
                     text-transform: uppercase;
                     color: #0364B6;
                     font-weight: bold;
+                    font-style: normal!important;
                     text-align: center;
                     margin: 0;
                     font-family: 'avg45_c', Arial, sans-serif;
@@ -503,30 +509,39 @@
                 }
 
                 .nav__link.mod-fiolet {
-                  border-color: #9A98BB;
-                  background-color: #B3B3D7;
+                  /*border-color: #9A98BB;
+                  background-color: #B3B3D7;*/
+                  border-color: #4965B9;
+                  background-color: #8E9ACA;
                 }
 
                 .nav__link.mod-green {
-                  border-color: #BBC8AD;
-                  background-color: #D9E5CA;
+                  /*border-color: #BBC8AD;
+                  background-color: #D9E5CA;*/
+                  border-color: #B1BB40;
+                  background-color: #BFC466;
                 }
 
                 .nav__link.mod-beige {
-                  border-color: #CDC5BF;
-                  background-color: #F2EBE7;
+                  border-color: #C6AB7E;
+                  background-color: #DDC5AD;
+                 /* border-color: #CDC5BF;
+                  background-color: #F2EBE7;*/
                 }
 
                 .nav__link.mod-fi {
-                  border-color: #9C86B0;
-                  background-color: #B79FCA;
+                  border-color: #8E9ACA;
+                  background-color: #4B66AD;
+                  /*border-color: #9C86B0;
+                  background-color: #B79FCA;*/
                 }
 
                 .nav__title {
                   position: relative;
                   margin-top: auto;
-                  font-size: 15px;
+                  font-size: 15px!important;
                   text-transform: uppercase;
+                  font-style: normal !important;
                   letter-spacing: .01em;
                   color: #000;
                   -webkit-transition: 0.2s;
@@ -1021,7 +1036,7 @@
                       line-height: 20px;
                       margin: 0;
                       margin-bottom: 20px;
-                      color: #46468C;
+                      color: #46468C!important;
                       font-family: 'avg45_c', Arial, sans-serif;
                     }
 
